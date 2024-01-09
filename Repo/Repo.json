@@ -1,0 +1,12 @@
+[
+    {
+        "Name": "Catalyst",
+        "Description": "A lightweight and user-focused web browser powered by Electron. Catalyst is a lightweight and user-focused web browser powered by Electron. Catalyst is designed to be easy to use and provides a minimalistic interface for browsing the web. It is also open-source and free to use.",
+        "Developer": "jdev082",
+        "Install-Command": "flatpak install flathub org.eu.getcatalyst.Catalyst",
+        "Remove-Command": "flatpak remove flathub org.eu.getcatalyst.Catalyst",
+        "Run-Command": "flatpak run org.eu.getcatalyst.Catalyst",
+        "Logo": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.eu.getcatalyst.Catalyst.png",
+        "Project": "https://github.com/CatalystDevOrg/Catalyst"
+    }
+]

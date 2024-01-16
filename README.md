@@ -1,5 +1,5 @@
 # Finder/Main/
-Finder is repo system based on [FYC-Rewrite V2]() that is made for installing or just doing really what ever you want with it. It's made to be edited and open source down to the repo system it's self.
+Finder is a repo system based on [FYC-Rewrite V2]() that is made for installing or just doing really whatever you want with it. It's made to be edited and open-source down to the repo system itself.
 
 ## Installing
 To install Finder open a terminal and type the following command listed below note that [Windows](https://www.microsoft.com/en-us/windows?r=1) is not tested.
@@ -8,11 +8,11 @@ git clone https://github.com/HttpAnimation/Finder.git
 ```
 
 ## Running
-Open the **index.html** in the Finder folder if you see nothing show up you may need to allow crocs everywhare.
+Open the **index.html** in the Finder folder if you see nothing show up you may need to allow Crocs everywhere.
 
 
 ## Adding a repo
-To add a repo open the Finder folder with the terminal and **cd** over to where ever it's downloaded the default will be **/home/$user/home** it might be differnt so keep that in mind but once there run one of the following command **[nano](https://www.nano-editor.org/)** is gonna be installed for almost every distro and *[macOS](https://www.apple.com/macos) and **[kate](https://kate-editor.org/)** is gonna be included on most systems with [KDE Plasma](https://kde.org/plasma-desktop/) installed you can also open the file manually if you don't have one of the following IDEs installed.
+To add a repo open the Finder folder with the terminal and **cd** over to wherever it's downloaded the default will be **/home/$user/home** it might be different so keep that in mind but once they run one of the following command **[nano](https://www.nano-editor.org/)** is gonna be installed for almost every distro and [macOS](https://www.apple.com/macos) and **[kate](https://kate-editor.org/)** is gonna be included on most systems with [KDE Plasma](https://kde.org/plasma-desktop/) installed you can also open the file manually if you don't have one of the following IDEs installed.
 
 ```
 kate Configs/Replers/Repo.json
@@ -20,16 +20,16 @@ kate Configs/Replers/Repo.json
 ```bash
 kate Configs/Replers/Repo.json
 ```
-Once you have the file opened add a **,** at the end of your laste repo URL for a example it may look like the following listed below.
+Once you have the file opened add a **,** at the end of your last repo URL for an example it may look like the following listed below.
 ```json
 ........com/repo.json",
 ```
-Add a new line inder the **,** and add **""** to that line and you should get something like this.
+Add a new line under the **,** and add **""** to that line and you should get something like this.
 ```
 ........com/repo.json",
 "Gffg://100%ARealURL.json"
 ```
-If you add another repo make sure to add the **,** agian it just tells [JSON](https://www.json.org/json-en.html) that theres a new repo am planning on making a GUI for managening repos with out no code editing but for now this is the way.
+If you add another repo make sure to add the **,** again it just tells [JSON](https://www.json.org/json-en.html) that there is a new repo am planning on making a GUI for managing repos without no code editing but for now this is the way.
 
 
 ## Streaming
